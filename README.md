@@ -14,6 +14,7 @@ PUTting to a "key" will create/update redirect of the "key" (201 if creates, 200
 PUT http://localhost:8081/nexus/service/local/redirect/foo?t=http://www.sonatype.com/
 
 Parameters:
+
 1. t - target URL, if relative will be resolved against Nexus base
 2. p (optional) - a boolean if "true", redirect will be permanent, otherwise temporary
 
